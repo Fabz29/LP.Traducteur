@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.8" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jSeparator3" max="32767" attributes="0"/>
+                          <Component id="jSeparator1" alignment="0" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="Titre" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="LBDictionnaire" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="BTCharger" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="149" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="LBParcourir" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="BTParcourir" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="LBLangue" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="RBFrancais" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="RBMorse" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                              <Component id="BTraduire" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="LBMorse" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="LBAlphabet" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="LBSelectionner" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="LBRechercher" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="TFRecherche" min="-2" max="-2" attributes="0"/>
+                          <Component id="CBSelectionner" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="TFAlphabet" alignment="0" pref="22" max="32767" attributes="0"/>
+                              <Component id="TFMorse" alignment="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="63" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="BTAjouter" min="-2" max="-2" attributes="0"/>
+                          <Component id="BTRecherche" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="BTSupprimer" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="71" max="32767" attributes="0"/>
+                      <Component id="TAConsole" min="-2" pref="315" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Titre" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="LBDictionnaire" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="BTCharger" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jSeparator1" min="-2" pref="10" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="LBParcourir" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="LBLangue" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="RBFrancais" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="RBMorse" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="BTraduire" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="BTParcourir" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jSeparator3" min="-2" pref="10" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="120" max="-2" attributes="0"/>
+                              <Component id="BTAjouter" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="TFRecherche" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="BTRecherche" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="LBRechercher" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="CBSelectionner" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="BTSupprimer" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="LBSelectionner" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="LBMorse" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="TFMorse" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="LBAlphabet" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="TFAlphabet" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="0" pref="24" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="TAConsole" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="BTParcourir">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Parcourir"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BTParcourirActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="BTraduire">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Traduire"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Titre">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Coolvetica" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Traducteur Morse"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator1">
+    </Component>
+    <Component class="javax.swing.JLabel" name="LBParcourir">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Fichier &#xe0; traduire"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LBLangue">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Langue "/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="RBFrancais">
+      <Properties>
+        <Property name="selected" type="boolean" value="true"/>
+        <Property name="text" type="java.lang.String" value="vers fran&#xe7;ais"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="RBMorse">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="vers morse"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="BTSupprimer">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Supprimer"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LBAlphabet">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Alphabet"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LBMorse">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Morse"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TFMorse">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="..........."/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TFAlphabet">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="..........."/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="BTAjouter">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ajouter"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="CBSelectionner">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="Item 1"/>
+            <StringItem index="1" value="Item 2"/>
+            <StringItem index="2" value="Item 3"/>
+            <StringItem index="3" value="Item 4"/>
+          </StringArray>
+        </Property>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TFRecherche">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jTextField3"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="BTRecherche">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Lancer"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LBSelectionner">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="S&#xe9;lectionner"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LBRechercher">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Rechercher"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator3">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LBDictionnaire">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ajouter votre dictionnaire"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="BTCharger">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Charger"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BTChargerActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="TAConsole">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
